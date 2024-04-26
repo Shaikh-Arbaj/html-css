@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Here</title>
+    <style>
+        *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+        }
+        body
+        {
+            background-color: blueviolet;
+        }
+        .box
+        {
+            width: 80%;
+            min-height: 500px;
+            /* border: 5px solid black; */
+            margin: 80px auto;
+            /* background-color: rgba(173, 126, 235, 0.808); */
+        }
+        .main_form
+        {
+            width: 90%;
+            min-height: 400px;
+            /* border: 3px solid black; */
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+        }
+        .right_form
+        {
+         width: 40%;
+         min-height: 350px;   
+         /* border: 2px solid black; */
+         box-shadow: 5px 1px 5px 5px grey;
+         
+        
+        }
+        .form_data
+        {
+            width: 100%;
+        }
+        .login
+        {
+        margin: auto;
+        width: 100%;
+        height: 70px;
+        /* border: 2px solid black; */
+        padding: 10px;
+        margin-left: 13px;
+        }
+        .login h2
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 5px;
+        }
+        .login h4
+        {
+            font-weight: lighter;
+            /* padding: 5px; */
+            /* border: 2px solid black; */
+            float: left;
+           
+        }
+        .login a
+        {
+         width: 25%;
+         /* border: 2px solid black; */
+         float: right;
+         margin-right: 70px;
+         color: blueviolet;
+         font-weight: bold;
+        }
+        .form_data
+        {
+            margin: auto;
+            padding: 15px;
+            width: 100%;
+            min-height: 300px;
+            /* border: 2px solid black; */
+        }
+        label
+        {
+            width: 100%;
+            font-size: 16px;
+            margin-left: 5px;
+            font-weight: bold;
+        }
+        input[type=email]
+        {
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        padding: 5px;
+        border-radius: 7px;
+        }
+        input[type=password]
+        {
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 90%; 
+        padding: 5px;
+        border-radius: 7px;  
+        }
+        input[type=checkbox]
+        {
+            width: 10%;
+            float: left;
+           
+        }
+        .form_data h4
+        {
+            font-weight: lighter;
+            float: right;
+            margin-right: 210px;
+        }
+        .form_data a
+        {
+          font-size: 13px;
+          margin-left: 105px;
+          color: blueviolet;
+          font-weight: bold;
+        }
+
+        input[type=submit]
+        {
+            width: 90%;
+            margin-left: 6px;
+            margin-bottom: 15px;
+            padding: 7px;
+            border-radius: 7px;
+            background-color: rgb(93, 11, 170);
+            color: white;
+            border: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .form_data h5
+        {
+            font-size: large;
+            margin-left: 40px;
+            font-weight: lighter;
+            margin-bottom: 5px;
+        }
+        .left_form
+        {
+            width: 55%;
+            min-height: 350px;
+            /* border: 2px solid black; */
+            margin-right: 30px;
+        }
+        .form_data img
+        {
+          width: 80px;
+          height: 70px;
+          margin-left: 50px;
+        }
+        .left_form img
+        {
+            width: 500px;
+            height: 350px; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    
+      <div class="main_form">
+        <div class="right_form">
+            <div class="login">
+                <h2>Login</h2>
+                <h4>Doesn't have an account yet?</h4>
+                <a href="Register.html" target="_blank">Sign Up</a>
+            </div>
+            <div class="form_data">
+                <form action="#" method="post">
+                    <label for="lbemail">Email Address</label>
+                    <input type="email" id="lbemail" name="lbemail" placeholder="Enter your email here">
+                    <label for="lbpass">Password</label>
+                    <a href="#">FORGOT PASSWORD</a>
+                    <input type="password" id="lbpass" name="lbpass" placeholder="Enter your password here">
+                    <input type="checkbox" id="lbcheck" name="lbcheck">
+                    <h4>Remember me</h4>
+                    <input type="submit" value="LOGIN">
+                    <h5>----------- or login with ----------</h5>
+                
+                    <img src="image/Google.png" alt="image no load yet" usemap="#google">
+                    <map name="google">
+                        <area shape="rect" coords="2,5,123,123" href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1" alt="google" target="_blank">
+                    </map>
+                    <img src="image/facebook.png" alt="image not load yet" usemap="#facebook">
+                    <map name="facebook">
+                        <area shape="rect" coords="5,7,122,124" href="https://www.facebook.com/login/" alt="facebook" target="_blank">
+                    </map>
+                </form>
+            </div>
+           
+        </div>
+        <div class="left_form">
+         <img src="C:\Users\HP\Desktop\october batch\UI\Practical\image\office_work.png" alt="image not found">
+        </div>
+      </div>
+    </div>
+</body>
+</html>

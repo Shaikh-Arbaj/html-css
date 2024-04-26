@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .wrapper
+        {
+          width: 80%;
+          min-height: 100vh;
+          margin: auto;  
+        }
+        .header
+        {
+            width: 100%;
+            background-color: white;
+            height: 90px;
+            padding: 20px;
+        }
+        .header h2
+        {
+         float: left;
+         margin-left: 50px;
+         font-size: 40px; 
+        }
+        .navbar
+        {
+            float: right;
+            margin-right: 15px;
+            margin-top: 15px;
+        }
+        .navbar a
+        {
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .main
+        {
+         width: 100%;
+         height: 60vh;
+         background-image: url('ice_mountain.jpg');
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         position: relative;
+    
+
+        }
+        .main img{
+            width: 100%;
+            height: 60vh;
+        }
+        .main h2
+        {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            text-align: center; 
+            color:white;
+        }
+        .main h3
+        {
+            position: absolute;
+            top: 42%;
+            width: 100%;
+            text-align: center;   
+            font-size: 25px;
+            font-weight: 100;
+            color:white;
+        }
+        .main button
+        {
+            position: absolute;
+            top: 55%;
+            text-align: center; 
+            margin-left: 500px; 
+            padding: 5px;
+            background-color: black;
+            color: white;
+            border: none;
+        }
+        .box_main{
+            width: 100%;
+            min-height: 100px;
+            display: flex;
+            justify-content: space-between;
+            /* flex-direction: row; */
+            padding: 50px;
+            text-align: center;
+        }
+        .box2 img
+        {
+            width: 128px;
+            min-height: 100px;
+        }
+        .featured
+        {
+            width: 100%;
+            min-height: 200px;
+            text-align: center;
+           /* padding: 20px; */
+        }
+        .featured p
+        {
+            padding: 20px;
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+        .featured img
+        {
+           width: 80%;
+           height: 400px;
+        }
+        .foot_box
+        {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            text-align: center;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+        .box1
+        {
+            width: 20%;
+            height: 180px;
+        }
+        .box1 img
+        {
+            height: 160px;
+            width: 150px;
+        }
+        .box1 p
+        {
+            padding: 10px;
+        }
+        .box1 button
+        {
+            border-color: aquamarine;
+            color: aqua;
+            padding: 7px;
+            background-color: white;
+        }
+        .foot_up
+        {
+            width: 100%;
+            min-height: 50px;
+            text-align: center;
+        }
+        .foot_up p
+        {
+            padding: 15px;
+            margin-left: 82px;
+            margin-right: 82px;
+        }
+        .foot_up button
+        {
+            border-color: aquamarine;
+            color: aqua;
+            padding: 10px;
+            background-color: white;
+        }
+        .footer
+        {
+            width: 100%;
+            min-height: 200px;
+            background-color: rgb(255, 255, 255);
+            display:flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .left_foot
+        {
+          width: 40%;
+          min-height: 100px;
+          padding: 20px;
+          margin-left: 45px;
+        }
+        .left_foot a
+        {
+            color: aqua;
+        }
+        .right_foot
+        {
+            width: 40%;
+            min-height: 200px;
+            padding: 20px;
+            margin-left: 45px;
+        }
+        .right_foot li a
+        {
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+            list-style: none;
+        }
+        .right_foot ul
+        {
+           
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+     <div class="header">
+        <h2>Simply.</h2>
+        <div class="navbar">
+            <a href="#">HOME</a>
+            <a href="#">PORTFOLO</a>
+            <a href="#">CONTACT</a>
+            <a href="#">BLOG</a>
+        </div>
+     </div>
+     <div class="main">
+            <h2>A MINIMAL, CLEAN</h2>
+            <h3>LAYOUT FOR WEB DESIGN</h3>
+            <button type="submit">Get Started</button>
+     </div>
+     <div class="box_main">
+        <div class="box2">
+         <img src="pen.png" alt="easy to edit">
+         <h3>EASY TO EDIT</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, odit quae? Maiores tenetur aperiam cupiditate suscipit asperiores rerum voluptatum qui.</p>
+        </div>
+        <div class="box2">
+        <img src="layers.png" alt="layered psd">
+        <h3>LAYERED PSD</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta commodi rerum atque itaque, ratione quaerat corporis quos. Dignissimos, voluptatum error!</p>
+        </div>
+        <div class="box2">
+        <img src="rocket.png" alt="ready to go">
+        <h3>READY TO GO</h3>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis doloremque dignissimos distinctio id modi eveniet recusandae quos omnis delectus sit.</P>
+        </div>
+     </div>
+     <div class="featured">
+        <h2>FEATURED CONTENT</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorem amet dolore, repellendus velit quasi aliquam nobis, deserunt labore illum iusto fugiat ducimus nihil. Voluptatum deserunt omnis ad ut quasi hic commodi, iusto corporis neque corrupti illum quibusdam tenetur cum?</P>
+         <img src="beach.jpg" alt="video not found">
+    </div>
+    <div class="foot_box">
+        <div class="box1">
+         <h2>SECONDARY CONTENT</h2>
+         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, aliquam!</P>
+         <button type="submit">View more</button>
+        </div>
+        <div class="box1">
+            <img src="street.jpg" alt="image not found">
+        </div>
+        <div class="box1">
+        <h2>SECONDARY CONTENT</h2>
+        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla, aliquam!</P>
+        <button type="submit">View more</button>
+        </div>
+        <div class="box1">
+            <img src="monatain.jpg" alt="image not found">
+        </div>
+    </div>
+    <div class="foot_up">
+        <h2>HEARD ENOUGH?</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sint perferendis tempore distinctio sed accusamus voluptate tempora rerum voluptas laboriosam! At, saepe. Maxime, nulla nesciunt quo necessitatibus ea eligendi earum iure blanditiis placeat vero? Dolorum in omnis dolores eaque quam!</p>
+        <button type="submit">Get Started</button>
+    </div>
+    <div class="footer">
+        <div class="left_foot">
+            <h4>Copyright 2024 Giris Tech Hub all rights reserved</h4>
+            <a href="#">Terms and Services | Privacy</a>
+        </div>
+        <div class="right_foot">
+            <h2>Company</h2>
+            <ul>
+            <li> <a href="#">About Us</a></li>
+            <li><a href="#">Meet The Team</a></li>
+            <li><a href="#">What We Do</a></li>
+            <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
